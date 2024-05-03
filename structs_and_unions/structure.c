@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-#define MAX_IDS 32
 #define MAX_EMPLOYEES 1000
 
 struct employee_t {
