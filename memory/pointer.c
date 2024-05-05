@@ -7,7 +7,7 @@ struct employee_t {
     bool staff;
 };
 
-void initialise_empoyee(struct employee_t *e) {
+void initialize_empoyee(struct employee_t *e) {
     e -> id = 0;
     e -> income = 0;
     e -> staff = false;
@@ -18,7 +18,7 @@ void initialise_empoyee(struct employee_t *e) {
 int main() {
     struct employee_t Ralph;
     
-    initialise_empoyee(&Ralph);
+    initialize_empoyee(&Ralph);
 
     printf("%f\n", Ralph.income);
 }
