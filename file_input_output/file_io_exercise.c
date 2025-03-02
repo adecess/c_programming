@@ -10,7 +10,7 @@ void print_the_flag() {
         perror("Failed to open /tmp/flag");
     }
 
-    ssize_t bytes_read = read(fd, &buffer, sizeof(buffer));
+    ssize_t bytes_read = read(fd, buffer, sizeof(buffer));
     
     if (bytes_read == -1) {
         perror("Read failed");
